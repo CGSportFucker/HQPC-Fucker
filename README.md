@@ -6,6 +6,14 @@ HUST QR Pass-Code Fucker
 
 ---
 
+## How to Use
+
+Already deployed to Github Pages.
+
+Plz Visit [Link](https://cgsportfucker.github.io/HQPC-Fucker)
+
+![Example](https://raw.githubusercontent.com/CGSportFucker/HQPC-Fucker/master/example.jpg)
+
 ## LICENSE
 
 This repo is under WTFPL LICENSE
