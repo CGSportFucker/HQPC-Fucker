@@ -1,0 +1,41 @@
+<html lang="zh-cn" style="font-size:10px!important;">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8; width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" " />
+
+<head>
+    <title>华中大通行码 Fucker</title>
+</head>
+
+<body>
+    <h1>简陋的华中大通行码 Fucker</h1>
+    <p>请输入你的姓名、学号、学院,然后点击Fuck。<br>如果出现二维码中间的logo丢失，请刷新页面再试（可以多刷新几次）</p>
+    <p>本工具为纯前端静态页面，不会收集任何个人信息。<br>同时所有资源文件都移除了华科源,改为GitHub托管。</p>
+    <input type="text " placeholder="学号 " id="stu_no "><br>
+    <input type="text " placeholder="姓名 " id="name "><br>
+    <input type="text " placeholder="学院 " id="dept "><br>
+    <button type="button " onclick="run() ">Fuck</button>
+
+    <p>当你点击Fuck，即视为同意：<br><br>   您知晓此页面及附属仓库及其托管代码仅作学习之用，并且此项目为完全开源且Copy Left的。<br>     您同意使用此页面及附属仓库及其托管代码完全是您的个人行为。您在使用时应当遵循当地法律法规。且您认同您对自己的行为负有完全的法律责任。
+        <br>    您同意本页面及附属仓库及其托管代码将不会对你的使用行为负任何责任，也不会承担任何因您的使用所导致的潜在的直接或间接损失，包含但不限于经济损失。
+        <br>    此页面及附属仓库及其托管代码是在美国加利福尼亚州圣塔芭芭拉县开发并部署的。因此其将受到美国商务部进出口规定之限制。同时您同意，如有任何争议，都应在美国加利福尼亚州圣塔芭芭拉县当地具有管辖权的司法机构进行调解或诉讼。
+
+    </p>
+
+    <script type="text/javascript ">
+        function run() {
+            var stu_no = document.getElementById("stu_no ").value;
+            var name = document.getElementById("name ").value;
+            var dept = document.getElementById("dept ").value;
+
+            localStorage.clear();
+            localStorage.setItem('stu_no', stu_no);
+            localStorage.setItem('name', name);
+            localStorage.setItem('dept', dept);
+            window.location.href = "./fake.html ";
+        }
+    </script>
+
+
+</body>
+
+
+</html>

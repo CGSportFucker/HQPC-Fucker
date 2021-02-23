@@ -1,0 +1,925 @@
+.main-menu {
+    height: 62px;
+    box-shadow: none;
+}
+
+.main-menu .main-menu-btnbox {
+    height: 62px;
+    background-color: #eee;
+}
+
+.main-menu .main-menu-btnbox .menu-box {
+    display: block;
+    float: left;
+    width: 25%;
+    height: 62px;
+    text-decoration: none;
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon-01 .icon-nor {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-nor-01.png);
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon-01 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-01.png);
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon-02 .icon-nor {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-nor-02.png);
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon-02 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-02.png);
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon-03 .icon-nor {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-nor-03.png);
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon-03 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-03.png);
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon-04 .icon-nor {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-nor-04.png);
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon-04 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-04.png);
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon {
+    position: relative;
+    display: block;
+    margin: 14px 0 0px;
+    text-align: center;
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon font {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-size: auto 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon .icon-nor {
+    display: block;
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon .icon-act {
+    display: none;
+}
+
+.main-menu .main-menu-btnbox .menu-box .icon .point-box {
+    position: absolute;
+    top: -3px;
+    right: 29%;
+    z-index: 99;
+    display: block;
+    min-width: 14px;
+    height: 14px;
+    padding: 0;
+    border-radius: 1.4rem;
+    font-size: 12px;
+    line-height: 13px;
+    color: #fff;
+    padding: 0 3px;
+    background-color: #ff0000;
+}
+
+.main-menu .main-menu-btnbox .menu-box .menu-title {
+    color: #888;
+    font-size: 8pt;
+}
+
+.main-menu .main-menu-btnbox .menu-box.active .icon-nor {
+    display: none;
+}
+
+.main-menu .main-menu-btnbox .menu-box.active .icon-act {
+    display: block;
+}
+
+.main-menu .main-menu-btnbox .menu-box:hover {
+    text-decoration: none;
+}
+
+.qh-page-content {
+    width: 100%;
+    height: calc(100vh - 62.01px);
+}
+
+.qh-page-content .qh-page-bg {
+    width: 100%;
+    height: calc(100vh - 62.01px);
+    overflow: auto;
+}
+
+.qh-page-content .qh-user-info-part {
+    width: 100%;
+    height: 21vh;
+    padding: 20px 30px 0;
+}
+
+.qh-page-content .qh-user-info-part .user-photo {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin: 0 15px 0 0;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.qh-page-content .qh-user-info-part .user-photo>img {
+    width: 100%;
+}
+
+.qh-page-content .qh-user-info-part .info-details-box {
+    float: left;
+    width: 100%;
+    padding: 3px 0 0;
+}
+
+.qh-page-content .qh-user-info-part .info-details-box .info-details-item {
+    float: left;
+    width: 100%;
+    margin: 0 0 6px;
+}
+
+.qh-page-content .qh-user-info-part .info-details-box .info-details-item .tit-box {
+    float: left;
+    width: 105px;
+    text-align: right;
+    margin: 0 5px 0 0;
+    font-size: 10pt;
+    color: #fff;
+    line-height: 15px;
+}
+
+.qh-page-content .qh-user-info-part .info-details-box .info-details-item .line-box {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 2px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.qh-page-content .qh-user-info-part .info-details-box .info-details-item>font {
+    font-size: 12pt;
+    color: #fff;
+    line-height: 15px;
+}
+
+.qh-page-content .qh-qrcode-main-part {
+    width: 100%;
+    padding: 25px 0 0;
+}
+
+.qh-page-content .qh-qrcode-main-part.tem-updata-part {
+    padding: 13px 0 0;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-box {
+    width: 182px;
+    height: 182px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-box .no-data {
+    width: 172px;
+    height: 172px;
+    display: table;
+    margin: 0;
+    color: #666;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-box .no-data .inside-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px;
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qrcode-bg.png);
+    background-size: 172px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-time {
+    width: 100%;
+    text-align: center;
+    font-size: 14pt;
+    color: #888;
+    font-family: 'Arial';
+    line-height: 1;
+    margin-top: 2vh;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-place {
+    width: 100%;
+    text-align: center;
+    font-size: 14pt;
+    color: #353535;
+    font-family: 'Arial';
+    line-height: 1;
+    margin-top: 12px;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-btn {
+    width: 100%;
+    padding: 2vh 0 2vh;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-btn>a {
+    display: block;
+    height: 35px;
+    width: 285px;
+    margin: 0 auto;
+    line-height: 34px;
+    font-size: 14pt;
+    text-align: center;
+    color: #fff;
+    border-radius: 18px;
+    font-weight: bold;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-btn>a.english {
+    margin: 10px auto 0;
+    letter-spacing: -1px;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-btn.green a {
+    background-color: #009847;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-btn.green a.english {
+    background-color: #e0f2e9;
+    color: #009847;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-btn.red a {
+    background-color: #b80000;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-btn.red a.english {
+    background-color: #f6e0e0;
+    color: #b80000;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-btn.orange a {
+    background-color: #d97600;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-btn.orange a.english {
+    background-color: #faeee0;
+    color: #d97600;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-btn.gray a {
+    background-color: #7d7d7d;
+}
+
+.qh-page-content .qh-qrcode-main-part .qr-code-btn.gray a.english {
+    background-color: #efefef;
+    color: #7d7d7d;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box {
+    width: 100%;
+    padding: 10px 0 0;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box .app-link-item {
+    float: left;
+    width: 25%;
+    height: 72px;
+    margin: 0 0 15px;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box .app-link-item>a {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box .app-link-item>a>img {
+    display: block;
+    width: 50px;
+    margin: 0 auto 6px;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box .app-link-item>a .app-name {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 9.1pt;
+    color: #333;
+    line-height: 1;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box .app-link-item>a .app-name-en {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 7.5pt;
+    color: #888;
+    line-height: 1;
+    margin: 5px 0 0;
+    letter-spacing: -1px;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box.one-item {
+    padding: 0 20px;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box.one-item .app-link-item {
+    width: 100%;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box.two-item {
+    padding: 0 60px;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box.two-item .app-link-item {
+    width: 50%;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box.three-item {
+    padding: 0 30px;
+}
+
+.qh-page-content .qh-qrcode-main-part .app-link-box.three-item .app-link-item {
+    width: 33.3333333333%;
+}
+
+.qh-page-content .qh-qrcode-main-part .in-out-btn-content {
+    width: 285px;
+    height: 34px;
+    margin: 0 auto;
+}
+
+.qh-page-content .qh-qrcode-main-part .in-out-btn-content .out-btn {
+    float: left;
+    width: calc(50% - 6px);
+    height: 34px;
+    line-height: 33px;
+    text-align: left;
+    padding: 0 0 0 52px;
+    border-radius: 17px 0 0 17px;
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    background-size: auto 12px;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.qh-page-content .qh-qrcode-main-part .in-out-btn-content .in-btn {
+    float: right;
+    width: calc(50% - 6px);
+    height: 34px;
+    line-height: 33px;
+    text-align: right;
+    padding: 0 48px 0 0;
+    border-radius: 0 17px 17px 0;
+    background-color: #d6ffe5;
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/icon/qh/arr-right-color-1.png);
+    background-position: calc(100% - 10px) center;
+    background-repeat: no-repeat;
+    background-size: auto 12px;
+    font-size: 11pt;
+    color: #019944;
+    font-weight: bold;
+}
+
+.qh-page-content .qh-qrcode-main-part .in-out-btn-content font {
+    font-size: 9pt;
+    letter-spacing: -0.5px;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content {
+    width: calc(100% - 48px);
+    height: 300px;
+    margin: 0 24px;
+    padding: 40px 0 0;
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/updata-tem-bg.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-title {
+    width: 100%;
+    margin: 0 0 8px;
+    line-height: 1;
+    text-align: center;
+    font-size: 15pt;
+    color: #934c17;
+    font-weight: bold;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-title-en {
+    width: 100%;
+    margin: 0 0 28px;
+    line-height: 1;
+    text-align: center;
+    font-size: 9pt;
+    color: #934c17;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form {
+    width: 170px;
+    padding: 0 0;
+    margin: 0 auto 10px;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form .title-box {
+    float: left;
+    width: 100%;
+    font-size: 12pt;
+    line-height: 30px;
+    color: #353535;
+    font-weight: bold;
+    text-align: center;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form .title-box>font {
+    font-size: 9pt;
+    font-weight: normal;
+    color: #888;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form .text-box {
+    float: left;
+    width: 100%;
+    font-size: 12pt;
+    line-height: 30px;
+    color: #353535;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form .input-text-box {
+    float: left;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #bebebe;
+    background-color: #fff;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form .input-text-box>input {
+    float: left;
+    width: 82%;
+    padding: 0 15px;
+    height: 28px;
+    font-size: 12pt;
+    color: #353535;
+    line-height: 28px;
+    border: none;
+    border-radius: 3px;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form .input-text-box>font {
+    float: left;
+    font-size: 12pt;
+    line-height: 30px;
+    color: #d2d2d2;
+    font-weight: bold;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-btn {
+    display: block;
+    width: 254px;
+    height: 47px;
+    padding: 7px 0 0;
+    border-radius: 24px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: bold;
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/tem-updata-btn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-btn>span {
+    float: left;
+    width: 100%;
+    font-size: 13pt;
+    line-height: 1;
+}
+
+.qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-btn>font {
+    float: left;
+    width: 100%;
+    font-size: 8pt;
+    line-height: 1;
+    margin: 5px 0 0;
+}
+
+.color-1 .qh-page-content {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qh-index-bg-2-2.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 -52px;
+}
+
+.color-1 .qh-page-content .user-photo {
+    border-color: #691376;
+}
+
+.color-1 .qh-page-content .in-out-btn-content .out-btn {
+    background-color: #eed6ff;
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/icon/qh/arr-left-color-1.png);
+    color: #983ea6;
+}
+
+.color-1 .qh-page-bg {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qh-index-bg-2.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 -52px;
+}
+
+.color-1 .main-menu {
+    height: 62px;
+}
+
+.color-1 .main-menu .main-menu-btnbox {
+    height: 62px;
+    background-color: #eee;
+}
+
+.color-1 .main-menu .main-menu-btnbox .menu-box {
+    display: block;
+    float: left;
+    width: 25%;
+    height: 62px;
+    text-decoration: none;
+}
+
+.color-1 .main-menu .main-menu-btnbox .menu-box .icon-01 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-01.png);
+}
+
+.color-1 .main-menu .main-menu-btnbox .menu-box .icon-02 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-02.png);
+}
+
+.color-1 .main-menu .main-menu-btnbox .menu-box .icon-03 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-03.png);
+}
+
+.color-1 .main-menu .main-menu-btnbox .menu-box .icon-04 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-04.png);
+}
+
+.color-1 .main-menu .main-menu-btnbox .menu-box.active .menu-title {
+    color: #8f2f9d;
+}
+
+.color-2 .qh-page-content {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qh-index-bg-1-2.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 -52px;
+}
+
+.color-2 .qh-page-content .user-photo {
+    border-color: #009dd1;
+}
+
+.color-2 .qh-page-content .in-out-btn-content .out-btn {
+    background-color: #d2e9f4;
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/icon/qh/arr-left-color-2.png);
+    color: #0064a7;
+}
+
+.color-2 .qh-record-page-outside .qh-record-page-content {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qh-record-bg-2.png);
+}
+
+.color-2 .qh-page-bg {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qh-index-bg-1.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 -52px;
+}
+
+.color-2 .main-menu {
+    height: 62px;
+}
+
+.color-2 .main-menu .main-menu-btnbox {
+    height: 62px;
+    background-color: #eee;
+}
+
+.color-2 .main-menu .main-menu-btnbox .menu-box {
+    display: block;
+    float: left;
+    width: 25%;
+    height: 62px;
+    text-decoration: none;
+}
+
+.color-2 .main-menu .main-menu-btnbox .menu-box .icon-01 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-01-2.png);
+}
+
+.color-2 .main-menu .main-menu-btnbox .menu-box .icon-02 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-02-2.png);
+}
+
+.color-2 .main-menu .main-menu-btnbox .menu-box .icon-03 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-03-2.png);
+}
+
+.color-2 .main-menu .main-menu-btnbox .menu-box .icon-04 .icon-act {
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/menu/qh/icon-act-04-2.png);
+}
+
+.color-2 .main-menu .main-menu-btnbox .menu-box.active .menu-title {
+    color: #0072ad;
+}
+
+.qh-record-page-outside {
+    background-color: #e5e8f1;
+}
+
+.qh-record-page-outside .qh-record-page-content {
+    width: 100%;
+    height: calc(100vh - 62.01px);
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qh-record-bg.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 -42px;
+}
+
+.qh-record-page-outside .qh-record-page-content.place-page {
+    background-position: 0 -60px;
+}
+
+.qh-record-page-outside .qh-record-page-content .qh-record-page-title {
+    padding: 15px 16px 0;
+}
+
+.qh-record-page-outside .qh-record-page-content .qh-record-page-title>a {
+    display: block;
+    color: #fff;
+    padding: 13px 12px;
+    line-height: 1;
+    height: 40px;
+    font-size: 10pt;
+}
+
+.qh-record-page-outside .qh-record-page-content .qh-record-main-part {
+    width: 100%;
+    padding: 2px 16px 0;
+    height: calc(100vh - 117.01px);
+    overflow: auto;
+}
+
+.qh-record-page-outside .qh-record-page-content .qh-record-main-part .qh-record-item {
+    width: 100%;
+    height: 120px;
+    padding: 20px 34px 13px;
+    margin: 0 0 13px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.qh-record-page-outside .qh-record-page-content .qh-record-main-part .qh-record-item .tit-line {
+    width: 100%;
+    margin: 0 0 7px;
+}
+
+.qh-record-page-outside .qh-record-page-content .qh-record-main-part .qh-record-item .tit-line .name-box {
+    float: left;
+    height: 16px;
+    font-size: 12pt;
+    color: #353535;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.qh-record-page-outside .qh-record-page-content .qh-record-main-part .qh-record-item .tit-line .tag-box {
+    float: left;
+    height: 14px;
+    margin: 1px 0 0 10px;
+    padding: 0 5px;
+    line-height: 14px;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e30052;
+    border-radius: 4px;
+}
+
+.qh-record-page-outside .qh-record-page-content .qh-record-main-part .qh-record-item .info-line {
+    width: 100%;
+    font-size: 10pt;
+    color: #888;
+    line-height: 1;
+    margin: 0 0 9px;
+}
+
+.qh-record-page-outside .qh-record-page-content .search-content-outside {
+    width: 100%;
+    padding: 15px 45px 14px;
+}
+
+.qh-record-page-outside .qh-record-page-content .search-content-outside .qh-search-content {
+    float: left;
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.qh-record-page-outside .qh-record-page-content .search-content-outside .qh-search-content .search-icon {
+    float: left;
+    width: 19px;
+    margin: 7px 0 0;
+}
+
+.qh-record-page-outside .qh-record-page-content .search-content-outside .qh-search-content .search-input {
+    float: right;
+    width: calc(100% - 30px);
+    height: 30px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    color: #888;
+    font-size: 11pt;
+}
+
+.qh-record-page-outside .qh-record-page-content .note-block-content {
+    width: calc(100% - 32px);
+    height: calc(100vh - 140.01px);
+    margin: 0 16px;
+    padding: 15px 33px;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: auto;
+}
+
+.qh-record-page-outside .qh-record-page-content .note-block-content .note-block-item {
+    width: 100%;
+    padding: 9px 0 13px;
+    border-bottom: 1px solid #e5e8f1;
+}
+
+.qh-record-page-outside .qh-record-page-content .note-block-content .note-block-item .title-line {
+    width: 100%;
+    margin: 0 0 3px;
+}
+
+.qh-record-page-outside .qh-record-page-content .note-block-content .note-block-item .title-line .title-box {
+    float: left;
+    max-width: calc(100% - 30px);
+    font-size: 10pt;
+    color: #353535;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.qh-record-page-outside .qh-record-page-content .note-block-content .note-block-item .title-line .tag-box {
+    float: left;
+    display: block;
+    height: 16px;
+    margin: 3px 0 0 5px;
+    padding: 0 3px;
+    font-size: 9pt;
+    line-height: 15px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #e9611d;
+}
+
+.qh-record-page-outside .qh-record-page-content .note-block-content .note-block-item .info-line {
+    width: 100%;
+    font-size: 9pt;
+    color: #888888;
+    line-height: 1;
+}
+
+.qh-record-page-outside .qh-record-page-content .note-block-content .note-block-item.done .title-line .title-box {
+    font-weight: normal;
+    color: #999;
+}
+
+.qh-record-page-outside .qh-record-page-content .note-block-content .note-block-item.done .info-line {
+    color: #999;
+}
+
+.qh-record-page-outside .qh-record-page-content .place-tab-outside {
+    width: 100%;
+    padding: 13px 36px 3px;
+}
+
+.qh-record-page-outside .qh-record-page-content .place-tab-content .swiper-slide {
+    font-size: 10pt;
+    color: #fff;
+    padding: 12px 0;
+    line-height: 16px;
+    text-align: center;
+}
+
+.qh-record-page-outside .qh-record-page-content .place-tab-content .swiper-slide.active {
+    font-size: 12pt;
+    color: #fff;
+    font-weight: bold;
+}
+
+.qh-record-page-outside .qh-record-page-content .place-block-content {
+    padding: 0 16px;
+    height: calc(100vh - 118.01px);
+    overflow: auto;
+}
+
+.qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item {
+    width: 100%;
+    height: 100px;
+    padding: 23px 20px 10px 34px;
+    margin: 0 0 13px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .title-line {
+    width: 100%;
+    margin: 0 0 3px;
+}
+
+.qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .title-line .tit-box {
+    float: left;
+    max-width: calc(100% - 150px);
+    font-size: 10pt;
+    color: #353535;
+    line-height: 22px;
+}
+
+.qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .title-line .star-box {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 3px 0 0 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/icon/qh/star-act.png);
+}
+
+.qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .title-line .temperature-box {
+    float: left;
+    padding: 0 0 0 20px;
+    margin: 0 0 0 10px;
+    font-size: 8pt;
+    color: #34c5ce;
+    height: 22px;
+    line-height: 22px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto 19px;
+    background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/icon/qh/temperature-icon.png);
+}
+
+.qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .title-line .tag-box {
+    float: right;
+    display: block;
+    height: 16px;
+    margin: 3px 0 0;
+    padding: 0 3px;
+    font-size: 9pt;
+    line-height: 15px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #e30052;
+}
+
+.qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .info-line {
+    width: 100%;
+    font-size: 9pt;
+    color: #888888;
+    line-height: 1;
+}
+
+.qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .title-line .temperature-box {
+    color: #ff0303;
+}

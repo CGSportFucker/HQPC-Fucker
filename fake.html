@@ -1,0 +1,429 @@
+<html lang="zh-cn" style="font-size:10px!important;">
+
+<head>
+    <title>华中大通行码</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <link rel="icon" href="./res/origin/img/newicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./res/origin/css/mui.css">
+    <link rel="stylesheet" type="text/css" href="./res/origin/css/poppicker.css">
+    <link id="" rel="stylesheet" type="text/css" href="./res/origin/css/dropload.css">
+    <link rel="stylesheet" href="./res/origin/css/theme.css">
+    <link rel="stylesheet" href="./res/origin/css/hs.css">
+    <link rel="stylesheet" type="text/css" href="./res/origin/css/swipper.css">
+    <link rel="stylesheet" type="text/css" href="./res/origin/css/mescroll.css">
+    <link rel="stylesheet" type="text/css" href="./res/origin/css/gh.css">
+    <script type="text/javascript" src="./res/origin/js/jquery.js"></script>
+    <script type="text/javascript" src="./res/origin/js/mui.js"></script>
+    <script type="text/javascript" src="./res/origin/js/mescroll.js"></script>
+    <script type="text/javascript" src="./res/origin/js/mui.indexedlist.js"></script>
+    <script type="text/javascript" src="./res/origin/js/swipper.js"></script>
+    <script type="text/javascript" src="./res/origin/js/cookie.js"></script>
+    <script type="text/javascript">
+        var contextpath = "/new_jp";
+        var caspath = ".https://pass.hust.edu.cn/cas";
+        var isCloud = 'false';
+        var is_root_null = 'false';
+        var is_district_show = '';
+        var is_full_name = '';
+        var titleName = '智慧华中大';
+        var checkAlive = 'false';
+        var javascript_path = "https://health.hust.edu.cn/new_jp";
+        var css_path = 'https://health.hust.edu.cn/new_jp';
+        var image_path = "https://health.hust.edu.cn/new_jp";
+        var menu = "jp";
+
+        var unit_id = "";
+        var user_id_type = 1;
+        var sys_theme_m = "jp";
+        var _sys_theme_setting = "";
+        var editor_type = "eWebEditor";
+        var system_allow_suffix = "png,jpg,png,gif,jpeg,txt,doc,docx,xls,xlsx,ppt,pptx,rar,zip,7z,xml,pdf,mp4,amr";
+        var back_act_listener = "";
+        var hidemenu = 'null';
+        var enable_qtip = 'false';
+    </script>
+    <style type="text/css">
+        .page-content-insidebox {
+            min-height: 550px;
+        }
+        
+        @media screen and (min-width:1441px) {
+            .page-content-insidebox {
+                min-height: 950px;
+            }
+        }
+        
+        .img-box {
+            padding-bottom: 14.49% 0 0;
+        }
+        
+        .img-box img {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            margin: auto;
+        }
+    </style>
+    <link id="layuicss-laydate" rel="stylesheet" href="./res/origin/css/laydate.css" media="all">
+    <link id="layuicss-layer" rel="stylesheet" href="./res/origin/css/layer.css" media="all">
+    <link id="layuicss-skincodecss" rel="stylesheet" href="./res/origin/css/code.css" media="all">
+    <link href="./res/origin/css/wdataPicker.css" rel="stylesheet" type="text/css"><img id="myLogo" style="display: none" src="./res/origin/img/qr-center-icon.png"></head>
+
+<body>
+    <div id="word-size" class="word-size">王</div>
+    <img src="./res/origin/img/header.jpg" width="100%" height="60" />
+    <div class="mobile-page-container">
+        <div class="main-body-content" id="page-content">
+            <div class="mobile-page-container color-1 qhust-menu">
+                <div id="user_healthy_info_content">
+                    <div class="qh-page-content">
+                        <div class="qh-page-bg">
+                            <div class="qh-user-info-part cl-after" id="user_info_content">
+                                <div class="info-details-box">
+                                    <div class="info-details-item" id="name_input">
+                                        <span class="tit-box">姓名 Name</span>
+                                        <span class="line-box"></span>
+
+                                    </div>
+                                    <div class="info-details-item" id="stu_no_input">
+                                        <span class="tit-box">证件 HUST ID</span>
+                                        <span class="line-box"></span>
+
+
+
+                                    </div>
+                                    <div class="info-details-item" id="dept_input">
+                                        <span class="tit-box">单位 Affiliation</span>
+                                        <span class="line-box"></span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="qh-qrcode-main-part">
+                                <div class="qr-code-box swiper-container-horizontal" id="qrcode_parent">
+                                    <div class="" id=main_qrcode>
+                                        <div class="inside-table-cell"></div>
+                                    </div>
+                                </div>
+                                <div class="qr-code-time" id="update_time" style="font-size:12pt">您登记的返校时间已到，请持通行码返校。</div>
+                                <div class="qr-code-btn green" id="healthColor">
+                                    <a class="" id="label_name">无异常</a>
+                                    <a class="english" id="label_name_en">Normal</a>
+                                </div>
+                                <div class="app-link-box cl-after two-item">
+                                    <div class="app-link-item" id="place_scan">
+                                        <a>
+                                            <img src="./res/origin/img/icon-hust-1.png">
+                                            <span class="app-name">地点扫码</span>
+                                            <span class="app-name-en">Scan location code</span>
+                                        </a>
+                                    </div>
+                                    <div class="app-link-item" id="day-health">
+                                        <a>
+                                            <img src="./res/origin/img/icon-hust-2.png">
+                                            <span class="app-name">健康打卡</span>
+                                            <span class="app-name-en">Report body temperature</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <script type="text/javascript" src="./res/custom/img-qrcode.js"></script>
+            <script type="text/javascript" src="./res/custom/jquery-qrcode.min.js"></script>
+            <script type="text/javascript">
+                if (localStorage.getItem("stu_no")) {
+                    document.getElementById("stu_no_input").innerHTML = document.getElementById("stu_no_input").innerHTML + "<font>" + localStorage.getItem("stu_no") + "</font>";
+                } else {
+                    document.getElementById("stu_no_input").innerHTML = document.getElementById("stu_no_input").innerHTML + "<font>TODO</font>";
+                }
+
+                if (localStorage.getItem("name")) {
+                    document.getElementById("name_input").innerHTML = document.getElementById("name_input").innerHTML + "<font>" + localStorage.getItem("name") + "</font>";
+                } else {
+                    document.getElementById("name_input").innerHTML = document.getElementById("name_input").innerHTML + "<font>TODO</font>";
+                }
+
+                if (localStorage.getItem("dept")) {
+                    document.getElementById("dept_input").innerHTML = document.getElementById("dept_input").innerHTML + "<font>" + localStorage.getItem("dept") + "</font>";
+                } else {
+                    document.getElementById("dept_input").innerHTML = document.getElementById("dept_input").innerHTML + "<font>TODO</font>";
+                }
+
+
+                var id = "main_qrcode";
+                var qrcode = new imgQRCode(id);
+                qrcode.generateImgQRCode(localStorage.getItem("stu_no"));
+            </script>
+        </div>
+        <div class="main-menu" id="jp_home_menu">
+            <div class="main-menu-btnbox menu-four">
+                <a class="menu-box active"> <span class="icon icon-08"> <font class="icon-act"></font> <font class="icon-nor"></font> </span> <span class="menu-title" style="font-size: 11px;">通行码</span> </a>
+                <a class="menu-box"> <span class="icon icon-09"> <font class="icon-act"></font> <font class="icon-nor"></font> <span class="point-box" id="redpoint_h" style="font-size: 12px;"></span> </span> <span class="menu-title" style="font-size: 11px;">服务</span> </a>
+                <a class="menu-box"> <span class="icon icon-10"> <font class="icon-act"></font> <font class="icon-nor"></font> </span> <span class="menu-title" style="font-size: 11px;">通知</span> </a>
+                <a class="menu-box"> <span class="icon icon-12"> <font class="icon-act"></font> <font class="icon-nor"></font> <span class="point-box" id="redpoint_m" style="display: none; font-size: 12px;"></span> </span> <span class="menu-title" style="font-size: 11px;">我的</span>                    </a>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="./res/origin/css/layui.css">
+    <script type="text/javascript" src="./res/origin/js/all.min.js"></script>
+    <script type="text/javascript" src="./res/origin/js/layui.js"></script>
+    <script type="text/javascript" src="./res/origin/js/wdatepicker.js"></script>
+    <script type="text/javascript" src="./res/origin/js/common.js"></script>
+    <script type="text/javascript" src="./res/origin/js/menu.js"></script>
+    <script type="text/javascript" src="./res/origin/js/dropload.js"></script>
+    <script>
+        (function($, h, c) {
+            var a = $([]),
+                e = $.resize = $.extend($.resize, {}),
+                i,
+                k = "setTimeout",
+                j = "resize",
+                d = j + "-special-event",
+                b = "delay",
+                f = "throttleWindow";
+            e[b] = 250;
+            e[f] = true;
+            $.event.special[j] = {
+                setup: function() {
+                    if (!e[f] && this[k]) {
+                        return false;
+                    }
+                    var l = $(this);
+                    a = a.add(l);
+                    $.data(this, d, {
+                        w: l.width(),
+                        h: l.height()
+                    });
+                    if (a.length === 1) {
+                        g();
+                    }
+                },
+                teardown: function() {
+                    if (!e[f] && this[k]) {
+                        return false;
+                    }
+                    var l = $(this);
+                    a = a.not(l);
+                    l.removeData(d);
+                    if (!a.length) {
+                        clearTimeout(i);
+                    }
+                },
+                add: function(l) {
+                    if (!e[f] && this[k]) {
+                        return false;
+                    }
+                    var n;
+
+                    function m(s, o, p) {
+                        var q = $(this),
+                            r = $.data(this, d);
+                        r.w = o !== c ? o : q.width();
+                        r.h = p !== c ? p : q.height();
+                        n.apply(this, arguments);
+                    }
+                    if ($.isFunction(l)) {
+                        n = l;
+                        return m;
+                    } else {
+                        n = l.handler;
+                        l.handler = m;
+                    }
+                }
+            };
+
+            function g() {
+                i = h[k](function() {
+                        a.each(function() {
+                            var n = $(this),
+                                m = n.width(),
+                                l = n.height(),
+                                o = $.data(this, d);
+                            if (m !== o.w || l !== o.h) {
+                                n.trigger(j, [o.w = m, o.h = l]);
+                            }
+                        });
+                        g();
+                    },
+                    e[b]);
+            }
+        })(jQuery, this);
+    </script>
+    <script type="text/javascript">
+        var winheight = function() {
+            var windowH = $(window).height();
+            var fixW = $(window).width();
+            if (fixW < 1024) {
+                $(".page-content-insidebox").css("min-height", windowH - 115);
+                $(".page-scroll-container").css("height", windowH);
+                $(".page-navigation-top-fixed .page-container").css("height", "");
+                $(".page-navigation-top-fixed .page-container").css("overflow-x", "");
+            } else {
+                $(".page-content-insidebox").css("min-height", windowH - 115);
+                $(".page-scroll-container").css("height", windowH);
+                $(".page-navigation-top-fixed .page-container").css("height", windowH - 64);
+                $(".page-navigation-top-fixed .page-container").css("overflow-x", "hidden");
+            }
+        };
+        winheight();
+        $(window).resize(function() {
+            winheight();
+        });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            //适配苹果X
+            $("body").removeClass();
+
+            var u = navigator.userAgent;
+            var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
+            if (isIOS) {
+                if (screen.height == 736 && screen.width == 414) {
+                    // 					console.log("iPhone7P - iPhone8P - iPhone6");
+                } else if (screen.height == 667 && screen.width == 375) {
+                    // 					console.log("iPhone7 - iPhone8 - iPhone6");
+                } else if (screen.height == 568 && screen.width == 320) {
+                    // 					console.log("iPhone5");
+                } else {
+                    //苹果X以上机型，到横杠操作栏
+                    // 					$("body").addClass("iphone-x");
+                }
+            } else {
+                //'安卓'
+            }
+
+            //如果是点击个人设置
+            $('a[name="a_set_profile"]').click(function() {
+                Util.load("sys/uacm/profile");
+                $("div[name='level1']").removeClass("active bg-act");
+            });
+
+            //懒加载置顶的JS
+            setTimeout(
+                function() {
+                    var myScript = document.createElement("script");
+                    myScript.src = "./res/origin/js/scrolltopcontrol.js";
+                    document.body.appendChild(myScript);
+                }, 2000)
+
+        });
+
+        /*头部按钮合并规则2017-07-20*/
+        var username_adape = function() {
+            var windowW = $(window).width();
+            if (windowW < 1800) {
+                var username_w = $("#user-btn-01 span.tit").width();
+                if (username_w > 260) {
+                    $(".big-menu").addClass("early-adapt-active");
+
+                };
+            }
+            if (windowW < 1600) {
+                var username_w = $("#user-btn-01 span.tit").width();
+                if (username_w > 180) {
+                    $(".big-menu").addClass("early-adapt-active");
+                };
+            } else {
+                $(".big-menu").removeClass("early-adapt-active");
+            };
+
+        };
+        var headerdrop_adape = function() {
+            var username_w = $("#user-btn-01 span.tit").width();
+            var windowW = $(window).width();
+            if ($(".big-menu").hasClass("early-adapt-active")) {
+                $("#message-con .nav-menu-msn").css("left", "-400px");
+                $("#theme-settings").css("left", "-260px");
+            } else {
+                $("#message-con .nav-menu-msn").css("left", 0 - 400 - username_w - 105);
+                $("#theme-settings").css("left", 0 - 260 - username_w - 65);
+            };
+            if (windowW < 1320) {
+                $("#message-con .nav-menu-msn").css("left", "-400px");
+                $("#theme-settings").css("left", "-260px");
+            };
+            if (windowW < 1024) {
+                $("#message-con .nav-menu-msn").css("left", 0);
+                $("#theme-settings").css("left", 0);
+            };
+        };
+        username_adape();
+        headerdrop_adape();
+        $(window).resize(function() {
+            username_adape();
+            headerdrop_adape();
+        });
+        /*头部按钮合并规则 2017-07-20*/
+        $("#page-content").on("click", function(e) {
+            var bodW = $(window).width();
+            if (bodW > 1023) {
+                $("#message-con").removeClass("active");
+                $("#theme-con").removeClass("active");
+                $("#user-con").removeClass("active");
+                $("#message-con").removeClass("bg-act");
+                $("#theme-con").removeClass("bg-act");
+                $("#user-con").removeClass("bg-act");
+                $("#new_message").parent(".nav-menu").removeClass("active");
+                $("#theme-btn").parent(".nav-menu").removeClass("active");
+                $("#new_message").parent(".nav-menu").removeClass("bg-act");
+                $("#theme-btn").parent(".nav-menu").removeClass("bg-act");
+                $("#nav-menu-user").removeClass("active");
+            }
+        });
+        //微信字体
+        /*(function () {
+        	if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+        	handleFontSize();
+        	} else {
+        	if (document.addEventListener) {
+        	document.addEventListener("WeixinJSBridgeReady", handleFontSize, false);
+        	} else if (document.attachEvent) { 
+        	document.attachEvent("WeixinJSBridgeReady", handleFontSize);
+        	document.attachEvent("onWeixinJSBridgeReady", handleFontSize);
+        	}
+        	}
+        	function handleFontSize() {
+        	WeixinJSBridge.invoke('setFontSizeCallback', {
+        	'fontSize': 0
+        	});
+        	WeixinJSBridge.on('menu:setfont', function () {
+        	WeixinJSBridge.invoke('setFontSizeCallback', {
+        	'fontSize': 0
+        	});
+        	});
+        	}
+        })();*/
+        //微信字体
+    </script>
+    <script>
+        var word_size1 = function(a) {
+            var wordSize = $("#word-size").width();
+            $(".main-menu").find(".point-box").css("font-size", 12 - (wordSize - 12) + "px");
+            $(".main-menu").find(".menu-title").css("font-size", 11 - (wordSize - 12) + "px");
+        };
+        word_size1();
+        $("#word-size").resize(function() {
+            word_size1();
+        });
+    </script>
+    <script src="./res/origin/js/scrolltopcontrol.js"></script>
+    <div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 10px; right: 10px; opacity: 0; cursor: pointer;">
+        <!-- TO TOP -->
+        <div class="to-top"><span class="fa fa-angle-up"></span></div>
+        <!-- END TO TOP -->
+    </div>
+</body>
+
+</html>
