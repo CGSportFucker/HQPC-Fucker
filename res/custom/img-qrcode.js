@@ -5,12 +5,15 @@ $("head").children(":last").attr({
     src: "../res/origin/img/qr-center-icon.png"
 });
 
+var width = $(window).width();
+// rem
+$("html").css('font-size', width / 375);                
 
 var imgQRCode = function(target) {
     this.target = target;
     this.fill = '#3bb265'; //二维码颜色
     this.background = '#ffffff'; //背景颜色
-    this.size = 172; //大小
+    this.size = width / 375 * 172;
 };
 
 imgQRCode.prototype.generateImgQRCode = function(student_num) {

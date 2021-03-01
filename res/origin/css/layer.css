@@ -11,7 +11,7 @@
 html #layuicss-layer {
     display: none;
     position: absolute;
-    width: 1989px
+    width: 1989rem
 }
 
 .layui-layer,
@@ -26,19 +26,19 @@ html #layuicss-layer {
     left: 0;
     width: 100%;
     height: 100%;
-    _height: expression(document.body.offsetHeight+"px")
+    _height: expression(document.body.offsetHeight+"rem")
 }
 
 .layui-layer {
     -webkit-overflow-scrolling: touch;
-    top: 150px;
+    top: 150rem;
     left: 0;
     margin: 0;
     padding: 0;
     background-color: #fff;
     -webkit-background-clip: content;
-    border-radius: 2px;
-    box-shadow: 1px 1px 50px rgba(0, 0, 0, .3)
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 50rem rgba(0, 0, 0, .3)
 }
 
 .layui-layer-close {
@@ -50,9 +50,9 @@ html #layuicss-layer {
 }
 
 .layui-layer-border {
-    border: 1px solid #B2B2B2;
-    border: 1px solid rgba(0, 0, 0, .1);
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2)
+    border: 1rem solid #B2B2B2;
+    border: 1rem solid rgba(0, 0, 0, .1);
+    box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, .2)
 }
 
 .layui-layer-load {
@@ -89,8 +89,8 @@ html #layuicss-layer {
 
 .layui-layer-resize {
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 15rem;
+    height: 15rem;
     right: 0;
     bottom: 0;
     cursor: se-resize
@@ -139,15 +139,15 @@ html #layuicss-layer {
 @-webkit-keyframes layer-zoomInDown {
     0% {
         opacity: 0;
-        -webkit-transform: scale(.1) translateY(-2000px);
-        transform: scale(.1) translateY(-2000px);
+        -webkit-transform: scale(.1) translateY(-2000rem);
+        transform: scale(.1) translateY(-2000rem);
         -webkit-animation-timing-function: ease-in-out;
         animation-timing-function: ease-in-out
     }
     60% {
         opacity: 1;
-        -webkit-transform: scale(.475) translateY(60px);
-        transform: scale(.475) translateY(60px);
+        -webkit-transform: scale(.475) translateY(60rem);
+        transform: scale(.475) translateY(60rem);
         -webkit-animation-timing-function: ease-out;
         animation-timing-function: ease-out
     }
@@ -156,17 +156,17 @@ html #layuicss-layer {
 @keyframes layer-zoomInDown {
     0% {
         opacity: 0;
-        -webkit-transform: scale(.1) translateY(-2000px);
-        -ms-transform: scale(.1) translateY(-2000px);
-        transform: scale(.1) translateY(-2000px);
+        -webkit-transform: scale(.1) translateY(-2000rem);
+        -ms-transform: scale(.1) translateY(-2000rem);
+        transform: scale(.1) translateY(-2000rem);
         -webkit-animation-timing-function: ease-in-out;
         animation-timing-function: ease-in-out
     }
     60% {
         opacity: 1;
-        -webkit-transform: scale(.475) translateY(60px);
-        -ms-transform: scale(.475) translateY(60px);
-        transform: scale(.475) translateY(60px);
+        -webkit-transform: scale(.475) translateY(60rem);
+        -ms-transform: scale(.475) translateY(60rem);
+        transform: scale(.475) translateY(60rem);
         -webkit-animation-timing-function: ease-out;
         animation-timing-function: ease-out
     }
@@ -180,8 +180,8 @@ html #layuicss-layer {
 @-webkit-keyframes layer-fadeInUpBig {
     0% {
         opacity: 0;
-        -webkit-transform: translateY(2000px);
-        transform: translateY(2000px)
+        -webkit-transform: translateY(2000rem);
+        transform: translateY(2000rem)
     }
     100% {
         opacity: 1;
@@ -193,9 +193,9 @@ html #layuicss-layer {
 @keyframes layer-fadeInUpBig {
     0% {
         opacity: 0;
-        -webkit-transform: translateY(2000px);
-        -ms-transform: translateY(2000px);
-        transform: translateY(2000px)
+        -webkit-transform: translateY(2000rem);
+        -ms-transform: translateY(2000rem);
+        transform: translateY(2000rem)
     }
     100% {
         opacity: 1;
@@ -213,15 +213,15 @@ html #layuicss-layer {
 @-webkit-keyframes layer-zoomInLeft {
     0% {
         opacity: 0;
-        -webkit-transform: scale(.1) translateX(-2000px);
-        transform: scale(.1) translateX(-2000px);
+        -webkit-transform: scale(.1) translateX(-2000rem);
+        transform: scale(.1) translateX(-2000rem);
         -webkit-animation-timing-function: ease-in-out;
         animation-timing-function: ease-in-out
     }
     60% {
         opacity: 1;
-        -webkit-transform: scale(.475) translateX(48px);
-        transform: scale(.475) translateX(48px);
+        -webkit-transform: scale(.475) translateX(48rem);
+        transform: scale(.475) translateX(48rem);
         -webkit-animation-timing-function: ease-out;
         animation-timing-function: ease-out
     }
@@ -230,17 +230,17 @@ html #layuicss-layer {
 @keyframes layer-zoomInLeft {
     0% {
         opacity: 0;
-        -webkit-transform: scale(.1) translateX(-2000px);
-        -ms-transform: scale(.1) translateX(-2000px);
-        transform: scale(.1) translateX(-2000px);
+        -webkit-transform: scale(.1) translateX(-2000rem);
+        -ms-transform: scale(.1) translateX(-2000rem);
+        transform: scale(.1) translateX(-2000rem);
         -webkit-animation-timing-function: ease-in-out;
         animation-timing-function: ease-in-out
     }
     60% {
         opacity: 1;
-        -webkit-transform: scale(.475) translateX(48px);
-        -ms-transform: scale(.475) translateX(48px);
-        transform: scale(.475) translateX(48px);
+        -webkit-transform: scale(.475) translateX(48rem);
+        -ms-transform: scale(.475) translateX(48rem);
+        transform: scale(.475) translateX(48rem);
         -webkit-animation-timing-function: ease-out;
         animation-timing-function: ease-out
     }
@@ -309,15 +309,15 @@ html #layuicss-layer {
     50%,
     70%,
     90% {
-        -webkit-transform: translateX(-10px);
-        transform: translateX(-10px)
+        -webkit-transform: translateX(-10rem);
+        transform: translateX(-10rem)
     }
     20%,
     40%,
     60%,
     80% {
-        -webkit-transform: translateX(10px);
-        transform: translateX(10px)
+        -webkit-transform: translateX(10rem);
+        transform: translateX(10rem)
     }
 }
 
@@ -333,17 +333,17 @@ html #layuicss-layer {
     50%,
     70%,
     90% {
-        -webkit-transform: translateX(-10px);
-        -ms-transform: translateX(-10px);
-        transform: translateX(-10px)
+        -webkit-transform: translateX(-10rem);
+        -ms-transform: translateX(-10rem);
+        transform: translateX(-10rem)
     }
     20%,
     40%,
     60%,
     80% {
-        -webkit-transform: translateX(10px);
-        -ms-transform: translateX(10px);
-        transform: translateX(10px)
+        -webkit-transform: translateX(10rem);
+        -ms-transform: translateX(10rem);
+        transform: translateX(10rem)
     }
 }
 
@@ -362,42 +362,42 @@ html #layuicss-layer {
 }
 
 .layui-layer-title {
-    padding: 0 80px 0 20px;
-    height: 42px;
-    line-height: 42px;
-    border-bottom: 1px solid #eee;
-    font-size: 14px;
+    padding: 0 80rem 0 20rem;
+    height: 42rem;
+    line-height: 42rem;
+    border-bottom: 1rem solid #eee;
+    font-size: 14rem;
     color: #333;
     overflow: hidden;
     background-color: #F8F8F8;
-    border-radius: 2px 2px 0 0
+    border-radius: 2rem 2rem 0 0
 }
 
 .layui-layer-setwin {
     position: absolute;
-    right: 15px;
+    right: 15rem;
     *right: 0;
-    top: 18px;
+    top: 18rem;
     font-size: 0;
     line-height: initial
 }
 
 .layui-layer-setwin a {
     position: relative;
-    width: 16px;
-    height: 16px;
-    margin-left: 10px;
-    font-size: 12px;
+    width: 16rem;
+    height: 16rem;
+    margin-left: 10rem;
+    font-size: 12rem;
     _overflow: hidden
 }
 
 .layui-layer-setwin .layui-layer-min cite {
     position: absolute;
-    width: 14px;
-    height: 2px;
+    width: 14rem;
+    height: 2rem;
     left: 0;
     top: 50%;
-    margin-top: -1px;
+    margin-top: -1rem;
     background-color: #2E2D3C;
     cursor: pointer;
     _overflow: hidden
@@ -408,23 +408,23 @@ html #layuicss-layer {
 }
 
 .layui-layer-setwin .layui-layer-max {
-    background-position: -32px -40px
+    background-position: -32rem -40rem
 }
 
 .layui-layer-setwin .layui-layer-max:hover {
-    background-position: -16px -40px
+    background-position: -16rem -40rem
 }
 
 .layui-layer-setwin .layui-layer-maxmin {
-    background-position: -65px -40px
+    background-position: -65rem -40rem
 }
 
 .layui-layer-setwin .layui-layer-maxmin:hover {
-    background-position: -49px -40px
+    background-position: -49rem -40rem
 }
 
 .layui-layer-setwin .layui-layer-close1 {
-    background-position: 1px -40px;
+    background-position: 1rem -40rem;
     cursor: pointer
 }
 
@@ -434,38 +434,38 @@ html #layuicss-layer {
 
 .layui-layer-setwin .layui-layer-close2 {
     position: absolute;
-    right: -28px;
-    top: -28px;
-    width: 30px;
-    height: 30px;
+    right: -28rem;
+    top: -28rem;
+    width: 30rem;
+    height: 30rem;
     margin-left: 0;
-    background-position: -149px -31px;
-    *right: -18px;
+    background-position: -149rem -31rem;
+    *right: -18rem;
     _display: none
 }
 
 .layui-layer-setwin .layui-layer-close2:hover {
-    background-position: -180px -31px
+    background-position: -180rem -31rem
 }
 
 .layui-layer-btn {
     text-align: right;
-    padding: 0 15px 12px;
+    padding: 0 15rem 12rem;
     pointer-events: auto;
     user-select: none;
     -webkit-user-select: none
 }
 
 .layui-layer-btn a {
-    height: 30px;
-    line-height: 30px;
-    margin: 0 5px 0;
-    padding: 0 15px;
-    border: 1px solid #dedede;
-    border-radius: 5px;
+    height: 30rem;
+    line-height: 30rem;
+    margin: 0 5rem 0;
+    padding: 0 15rem;
+    border: 1rem solid #dedede;
+    border-radius: 5rem;
     background-color: #fff;
     color: #333;
-    border-radius: 2px;
+    border-radius: 2rem;
     font-weight: 400;
     cursor: pointer;
     text-decoration: none
@@ -481,7 +481,7 @@ html #layuicss-layer {
 }
 
 .layui-layer-btn .layui-layer-btn0 {
-    border-radius: 5px;
+    border-radius: 5rem;
     color: #fff;
     background-color: #006fc8;
     border-color: #006fc8;
@@ -496,68 +496,68 @@ html #layuicss-layer {
 }
 
 .layui-layer-dialog {
-    min-width: 260px
+    min-width: 260rem
 }
 
 .layui-layer-dialog .layui-layer-content {
     position: relative;
-    padding: 20px;
-    line-height: 24px;
+    padding: 20rem;
+    line-height: 24rem;
     word-break: break-all;
     overflow: hidden;
-    font-size: 14px;
+    font-size: 14rem;
     overflow-x: hidden;
     overflow-y: auto
 }
 
 .layui-layer-dialog .layui-layer-content .layui-layer-ico {
     position: absolute;
-    top: 16px;
-    left: 15px;
-    _left: -40px;
-    width: 30px;
-    height: 30px
+    top: 16rem;
+    left: 15rem;
+    _left: -40rem;
+    width: 30rem;
+    height: 30rem
 }
 
 .layui-layer-ico1 {
-    background-position: -30px 0
+    background-position: -30rem 0
 }
 
 .layui-layer-ico2 {
-    background-position: -60px 0
+    background-position: -60rem 0
 }
 
 .layui-layer-ico3 {
-    background-position: -90px 0
+    background-position: -90rem 0
 }
 
 .layui-layer-ico4 {
-    background-position: -120px 0
+    background-position: -120rem 0
 }
 
 .layui-layer-ico5 {
-    background-position: -150px 0
+    background-position: -150rem 0
 }
 
 .layui-layer-ico6 {
-    background-position: -180px 0
+    background-position: -180rem 0
 }
 
 .layui-layer-rim {
-    border: 6px solid #8D8D8D;
-    border: 6px solid rgba(0, 0, 0, .3);
-    border-radius: 5px;
+    border: 6rem solid #8D8D8D;
+    border: 6rem solid rgba(0, 0, 0, .3);
+    border-radius: 5rem;
     box-shadow: none
 }
 
 .layui-layer-msg {
-    min-width: 180px;
-    border: 1px solid #D3D4D3;
+    min-width: 180rem;
+    border: 1rem solid #D3D4D3;
     box-shadow: none
 }
 
 .layui-layer-hui {
-    min-width: 100px;
+    min-width: 100rem;
     background-color: #000;
     filter: alpha(opacity=60);
     background-color: rgba(0, 0, 0, .6);
@@ -566,12 +566,12 @@ html #layuicss-layer {
 }
 
 .layui-layer-hui .layui-layer-content {
-    padding: 12px 25px;
+    padding: 12rem 25rem;
     text-align: center
 }
 
 .layui-layer-dialog .layui-layer-padding {
-    padding: 20px 20px 20px 55px;
+    padding: 20rem 20rem 20rem 55rem;
     text-align: left
 }
 
@@ -582,7 +582,7 @@ html #layuicss-layer {
 
 .layui-layer-iframe .layui-layer-btn,
 .layui-layer-page .layui-layer-btn {
-    padding-top: 10px
+    padding-top: 10rem
 }
 
 .layui-layer-nobg {
@@ -602,21 +602,21 @@ html #layuicss-layer {
 }
 
 .layui-layer-loading .layui-layer-content {
-    width: 60px;
-    height: 24px;
+    width: 60rem;
+    height: 24rem;
     background: url(loading-0.gif) no-repeat
 }
 
 .layui-layer-loading .layui-layer-loading1 {
-    width: 37px;
-    height: 37px;
+    width: 37rem;
+    height: 37rem;
     background: url(loading-1.gif) no-repeat
 }
 
 .layui-layer-ico16,
 .layui-layer-loading .layui-layer-loading2 {
-    width: 32px;
-    height: 32px;
+    width: 32rem;
+    height: 32rem;
     background: url(loading-2.gif) no-repeat
 }
 
@@ -628,27 +628,27 @@ html #layuicss-layer {
 
 .layui-layer-tips .layui-layer-content {
     position: relative;
-    line-height: 22px;
-    min-width: 12px;
-    padding: 8px 15px;
-    font-size: 12px;
+    line-height: 22rem;
+    min-width: 12rem;
+    padding: 8rem 15rem;
+    font-size: 12rem;
     _float: left;
-    border-radius: 2px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, .2);
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, .2);
     background-color: #000;
     color: #fff
 }
 
 .layui-layer-tips .layui-layer-close {
-    right: -2px;
-    top: -1px
+    right: -2rem;
+    top: -1rem
 }
 
 .layui-layer-tips i.layui-layer-TipsG {
     position: absolute;
     width: 0;
     height: 0;
-    border-width: 8px;
+    border-width: 8rem;
     border-color: transparent;
     border-style: dashed;
     *overflow: hidden
@@ -656,36 +656,36 @@ html #layuicss-layer {
 
 .layui-layer-tips i.layui-layer-TipsB,
 .layui-layer-tips i.layui-layer-TipsT {
-    left: 5px;
+    left: 5rem;
     border-right-style: solid;
     border-right-color: #000
 }
 
 .layui-layer-tips i.layui-layer-TipsT {
-    bottom: -8px
+    bottom: -8rem
 }
 
 .layui-layer-tips i.layui-layer-TipsB {
-    top: -8px
+    top: -8rem
 }
 
 .layui-layer-tips i.layui-layer-TipsL,
 .layui-layer-tips i.layui-layer-TipsR {
-    top: 5px;
+    top: 5rem;
     border-bottom-style: solid;
     border-bottom-color: #000
 }
 
 .layui-layer-tips i.layui-layer-TipsR {
-    left: -8px
+    left: -8rem
 }
 
 .layui-layer-tips i.layui-layer-TipsL {
-    right: -8px
+    right: -8rem
 }
 
 .layui-layer-lan[type=dialog] {
-    min-width: 280px
+    min-width: 280rem
 }
 
 .layui-layer-lan .layui-layer-title {
@@ -695,15 +695,15 @@ html #layuicss-layer {
 }
 
 .layui-layer-lan .layui-layer-btn {
-    padding: 5px 10px 10px;
+    padding: 5rem 10rem 10rem;
     text-align: right;
-    border-top: 1px solid #E9E7E7
+    border-top: 1rem solid #E9E7E7
 }
 
 .layui-layer-lan .layui-layer-btn a {
     background: #fff;
     border-color: #E9E7E7;
-    color: #333border-radius: 5px;
+    color: #333border-radius: 5rem;
 }
 
 .layui-layer-lan .layui-layer-btn .layui-layer-btn1 {
@@ -731,24 +731,24 @@ html #layuicss-layer {
 
 .layui-layer-prompt .layui-layer-input {
     display: block;
-    width: 230px;
-    height: 36px;
+    width: 230rem;
+    height: 36rem;
     margin: 0 auto;
-    line-height: 30px;
-    padding-left: 10px;
-    border: 1px solid #e6e6e6;
+    line-height: 30rem;
+    padding-left: 10rem;
+    border: 1rem solid #e6e6e6;
     color: #333
 }
 
 .layui-layer-prompt textarea.layui-layer-input {
-    width: 300px;
-    height: 100px;
-    line-height: 20px;
-    padding: 6px 10px
+    width: 300rem;
+    height: 100rem;
+    line-height: 20rem;
+    padding: 6rem 10rem
 }
 
 .layui-layer-prompt .layui-layer-content {
-    padding: 20px
+    padding: 20rem
 }
 
 .layui-layer-prompt .layui-layer-btn {
@@ -756,7 +756,7 @@ html #layuicss-layer {
 }
 
 .layui-layer-tab {
-    box-shadow: 1px 1px 50px rgba(0, 0, 0, .4)
+    box-shadow: 1rem 1rem 50rem rgba(0, 0, 0, .4)
 }
 
 .layui-layer-tab .layui-layer-title {
@@ -767,18 +767,18 @@ html #layuicss-layer {
 .layui-layer-tab .layui-layer-title span {
     position: relative;
     float: left;
-    min-width: 80px;
-    max-width: 260px;
-    padding: 0 20px;
+    min-width: 80rem;
+    max-width: 260rem;
+    padding: 0 20rem;
     text-align: center;
     overflow: hidden;
     cursor: pointer
 }
 
 .layui-layer-tab .layui-layer-title span.layui-this {
-    height: 43px;
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
+    height: 43rem;
+    border-left: 1rem solid #eee;
+    border-right: 1rem solid #eee;
     background-color: #fff;
     z-index: 10
 }
@@ -788,7 +788,7 @@ html #layuicss-layer {
 }
 
 .layui-layer-tabmain {
-    line-height: 24px;
+    line-height: 24rem;
     clear: both
 }
 
@@ -828,35 +828,35 @@ html #layuicss-layer {
 .layui-layer-imgprev {
     position: absolute;
     top: 50%;
-    width: 27px;
-    _width: 44px;
-    height: 44px;
-    margin-top: -22px;
+    width: 27rem;
+    _width: 44rem;
+    height: 44rem;
+    margin-top: -22rem;
     outline: 0;
     blr: expression(this.onFocus=this.blur())
 }
 
 .layui-layer-imgprev {
-    left: 10px;
-    background-position: -5px -5px;
-    _background-position: -70px -5px
+    left: 10rem;
+    background-position: -5rem -5rem;
+    _background-position: -70rem -5rem
 }
 
 .layui-layer-imgprev:hover {
-    background-position: -33px -5px;
-    _background-position: -120px -5px
+    background-position: -33rem -5rem;
+    _background-position: -120rem -5rem
 }
 
 .layui-layer-imgnext {
-    right: 10px;
-    _right: 8px;
-    background-position: -5px -50px;
-    _background-position: -70px -50px
+    right: 10rem;
+    _right: 8rem;
+    background-position: -5rem -50rem;
+    _background-position: -70rem -50rem
 }
 
 .layui-layer-imgnext:hover {
-    background-position: -33px -50px;
-    _background-position: -120px -50px
+    background-position: -33rem -50rem;
+    _background-position: -120rem -50rem
 }
 
 .layui-layer-imgbar {
@@ -864,8 +864,8 @@ html #layuicss-layer {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 32px;
-    line-height: 32px;
+    height: 32rem;
+    line-height: 32rem;
     background-color: rgba(0, 0, 0, .8);
     background-color: #000\9;
     filter: Alpha(opacity=80);
@@ -879,7 +879,7 @@ html #layuicss-layer {
     *display: inline;
     *zoom: 1;
     vertical-align: top;
-    font-size: 12px
+    font-size: 12rem
 }
 
 .layui-layer-imgtit a {
@@ -894,7 +894,7 @@ html #layuicss-layer {
 }
 
 .layui-layer-imgtit em {
-    padding-left: 10px;
+    padding-left: 10rem;
     font-style: normal
 }
 
@@ -942,7 +942,7 @@ html #layuicss-layer {
     animation-duration: .2s
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1100rem) {
     .layui-layer-iframe {
         overflow-y: auto;
         -webkit-overflow-scrolling: touch
