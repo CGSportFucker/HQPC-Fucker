@@ -17,7 +17,7 @@
 
 .fa {
     display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
+    font: normal normal normal 14rem/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -2588,7 +2588,7 @@
     content: "\f26d";
 }
 
-.fa-500px:before {
+.fa-500rem:before {
     content: "\f26e";
 }
 
@@ -3038,10 +3038,10 @@
 
 .sr-only {
     position: absolute;
-    width: 1px;
-    height: 1px;
+    width: 1rem;
+    height: 1rem;
     padding: 0;
-    margin: -1px;
+    margin: -1rem;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;

@@ -10,7 +10,7 @@
 html #layuicss-laydate {
     display: none;
     position: absolute;
-    width: 1989px
+    width: 1989rem
 }
 
 .layui-laydate * {
@@ -21,9 +21,9 @@ html #layuicss-laydate {
 .layui-laydate {
     position: absolute;
     z-index: 66666666;
-    margin: 5px 0;
-    border-radius: 2px;
-    font-size: 14px;
+    margin: 5rem 0;
+    border-radius: 2rem;
+    font-size: 14rem;
     -webkit-animation-duration: .3s;
     animation-duration: .3s;
     -webkit-animation-fill-mode: both;
@@ -33,7 +33,7 @@ html #layuicss-laydate {
 }
 
 .layui-laydate-main {
-    width: 272px
+    width: 272rem
 }
 
 .layui-laydate-content td,
@@ -45,7 +45,7 @@ html #layuicss-laydate {
 
 @-webkit-keyframes laydate-upbit {
     from {
-        -webkit-transform: translate3d(0, 20px, 0);
+        -webkit-transform: translate3d(0, 20rem, 0);
         opacity: .3
     }
     to {
@@ -56,7 +56,7 @@ html #layuicss-laydate {
 
 @keyframes laydate-upbit {
     from {
-        transform: translate3d(0, 20px, 0);
+        transform: translate3d(0, 20rem, 0);
         opacity: .3
     }
     to {
@@ -93,13 +93,13 @@ html #layuicss-laydate {
 
 .layui-laydate-header {
     position: relative;
-    line-height: 30px;
-    padding: 10px 70px 5px
+    line-height: 30rem;
+    padding: 10rem 70rem 5rem
 }
 
 .laydate-set-ym span,
 .layui-laydate-header i {
-    padding: 0 5px;
+    padding: 0 5rem;
     cursor: pointer
 }
 
@@ -110,25 +110,25 @@ html #layuicss-laydate {
 
 .layui-laydate-header i {
     position: absolute;
-    top: 10px;
+    top: 10rem;
     color: #999;
-    font-size: 18px
+    font-size: 18rem
 }
 
 .layui-laydate-header i.laydate-prev-y {
-    left: 15px
+    left: 15rem
 }
 
 .layui-laydate-header i.laydate-prev-m {
-    left: 45px
+    left: 45rem
 }
 
 .layui-laydate-header i.laydate-next-y {
-    right: 15px
+    right: 15rem
 }
 
 .layui-laydate-header i.laydate-next-m {
-    right: 45px
+    right: 45rem
 }
 
 .laydate-set-ym {
@@ -145,7 +145,7 @@ html #layuicss-laydate {
 
 .layui-laydate-content {
     position: relative;
-    padding: 10px;
+    padding: 10rem;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none
@@ -158,9 +158,9 @@ html #layuicss-laydate {
 
 .layui-laydate-content td,
 .layui-laydate-content th {
-    width: 36px;
-    height: 30px;
-    padding: 5px;
+    width: 36rem;
+    height: 30rem;
+    padding: 5rem;
     text-align: center
 }
 
@@ -175,33 +175,33 @@ html #layuicss-laydate {
     top: 0;
     width: 100%;
     height: 100%;
-    line-height: 30px;
-    font-size: 12px;
+    line-height: 30rem;
+    font-size: 12rem;
     overflow: hidden
 }
 
 .laydate-day-mark::after {
     position: absolute;
     content: '';
-    right: 2px;
-    top: 2px;
-    width: 5px;
-    height: 5px;
+    right: 2rem;
+    top: 2rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%
 }
 
 .layui-laydate-footer {
     position: relative;
-    height: 46px;
-    line-height: 26px;
-    padding: 10px 20px
+    height: 46rem;
+    line-height: 26rem;
+    padding: 10rem 20rem
 }
 
 .layui-laydate-footer span {
-    margin-right: 15px;
+    margin-right: 15rem;
     display: inline-block;
     cursor: pointer;
-    font-size: 12px
+    font-size: 12rem
 }
 
 .layui-laydate-footer span:hover {
@@ -210,20 +210,20 @@ html #layuicss-laydate {
 
 .laydate-footer-btns {
     position: absolute;
-    right: 10px;
-    top: 10px
+    right: 10rem;
+    top: 10rem
 }
 
 .laydate-footer-btns span {
-    height: 26px;
-    line-height: 26px;
-    margin: 0 0 0 -1px;
-    padding: 0 10px;
-    border: 1px solid #C9C9C9;
+    height: 26rem;
+    line-height: 26rem;
+    margin: 0 0 0 -1rem;
+    padding: 0 10rem;
+    border: 1rem solid #C9C9C9;
     background-color: #fff;
     white-space: nowrap;
     vertical-align: top;
-    border-radius: 2px
+    border-radius: 2rem
 }
 
 .layui-laydate-list>li,
@@ -238,23 +238,23 @@ html #layuicss-laydate {
     top: 0;
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 10rem;
     background-color: #fff
 }
 
 .layui-laydate-list>li {
     position: relative;
     width: 33.3%;
-    height: 36px;
-    line-height: 36px;
-    margin: 3px 0;
+    height: 36rem;
+    line-height: 36rem;
+    margin: 3rem 0;
     text-align: center;
     cursor: pointer
 }
 
 .laydate-month-list>li {
     width: 25%;
-    margin: 17px 0
+    margin: 17rem 0
 }
 
 .laydate-time-list>li {
@@ -266,12 +266,12 @@ html #layuicss-laydate {
 
 .laydate-time-list p {
     position: relative;
-    top: -4px;
-    line-height: 29px
+    top: -4rem;
+    line-height: 29rem
 }
 
 .laydate-time-list ol {
-    height: 181px;
+    height: 181rem;
     overflow: hidden
 }
 
@@ -281,26 +281,26 @@ html #layuicss-laydate {
 
 .laydate-time-list ol li {
     width: 130%;
-    padding-left: 33px;
-    line-height: 30px;
+    padding-left: 33rem;
+    line-height: 30rem;
     text-align: left;
     cursor: pointer
 }
 
 .layui-laydate-hint {
     position: absolute;
-    top: 115px;
+    top: 115rem;
     left: 50%;
-    width: 250px;
-    margin-left: -125px;
-    line-height: 20px;
-    padding: 15px;
+    width: 250rem;
+    margin-left: -125rem;
+    line-height: 20rem;
+    padding: 15rem;
     text-align: center;
-    font-size: 12px
+    font-size: 12rem
 }
 
 .layui-laydate-range {
-    width: 546px
+    width: 546rem
 }
 
 .layui-laydate-range .laydate-main-list-0 .laydate-next-m,
@@ -311,19 +311,19 @@ html #layuicss-laydate {
 }
 
 .layui-laydate-range .laydate-main-list-1 .layui-laydate-content {
-    border-left: 1px solid #e2e2e2
+    border-left: 1rem solid #e2e2e2
 }
 
 .layui-laydate,
 .layui-laydate-hint {
-    border: 1px solid #d2d2d2;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+    border: 1rem solid #d2d2d2;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, .12);
     background-color: #fff;
     color: #666
 }
 
 .layui-laydate-header {
-    border-bottom: 1px solid #e2e2e2
+    border-bottom: 1rem solid #e2e2e2
 }
 
 .layui-laydate-header i:hover,
@@ -362,12 +362,12 @@ html #layuicss-laydate {
 .laydate-time-list li ol {
     margin: 0;
     padding: 0;
-    border: 1px solid #e2e2e2;
+    border: 1rem solid #e2e2e2;
     border-left-width: 0
 }
 
 .laydate-time-list li:first-child ol {
-    border-left-width: 1px
+    border-left-width: 1rem
 }
 
 .laydate-time-list>li:hover {
@@ -385,7 +385,7 @@ html #layuicss-laydate {
 }
 
 .layui-laydate-footer {
-    border-top: 1px solid #e2e2e2
+    border-top: 1rem solid #e2e2e2
 }
 
 .layui-laydate-hint {
@@ -424,11 +424,11 @@ html #layuicss-laydate {
 }
 
 .laydate-theme-molv.layui-laydate-range {
-    width: 548px
+    width: 548rem
 }
 
 .laydate-theme-molv .layui-laydate-main {
-    width: 274px
+    width: 274rem
 }
 
 .laydate-theme-molv .layui-laydate-header {
@@ -447,7 +447,7 @@ html #layuicss-laydate {
 }
 
 .laydate-theme-molv .layui-laydate-content {
-    border: 1px solid #e2e2e2;
+    border: 1rem solid #e2e2e2;
     border-top: none;
     border-bottom: none
 }
@@ -461,7 +461,7 @@ html #layuicss-laydate {
 .laydate-theme-grid .layui-laydate-content td,
 .laydate-theme-grid .layui-laydate-content thead,
 .laydate-theme-molv .layui-laydate-footer {
-    border: 1px solid #e2e2e2
+    border: 1rem solid #e2e2e2
 }
 
 .laydate-theme-grid .laydate-selected,
@@ -477,20 +477,20 @@ html #layuicss-laydate {
 
 .laydate-theme-grid .laydate-month-list,
 .laydate-theme-grid .laydate-year-list {
-    margin: 1px 0 0 1px
+    margin: 1rem 0 0 1rem
 }
 
 .laydate-theme-grid .laydate-month-list>li,
 .laydate-theme-grid .laydate-year-list>li {
-    margin: 0 -1px -1px 0
+    margin: 0 -1rem -1rem 0
 }
 
 .laydate-theme-grid .laydate-year-list>li {
-    height: 43px;
-    line-height: 43px
+    height: 43rem;
+    line-height: 43rem
 }
 
 .laydate-theme-grid .laydate-month-list>li {
-    height: 71px;
-    line-height: 71px
+    height: 71rem;
+    line-height: 71rem
 }

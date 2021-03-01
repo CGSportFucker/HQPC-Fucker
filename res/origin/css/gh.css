@@ -1,10 +1,10 @@
 .main-menu {
-    height: 62px;
+    height: 62rem;
     box-shadow: none;
 }
 
 .main-menu .main-menu-btnbox {
-    height: 62px;
+    height: 62rem;
     background-color: #eee;
 }
 
@@ -12,7 +12,7 @@
     display: block;
     float: left;
     width: 25%;
-    height: 62px;
+    height: 62rem;
     text-decoration: none;
 }
 
@@ -51,14 +51,14 @@
 .main-menu .main-menu-btnbox .menu-box .icon {
     position: relative;
     display: block;
-    margin: 14px 0 0px;
+    margin: 14rem 0 0rem;
     text-align: center;
 }
 
 .main-menu .main-menu-btnbox .menu-box .icon font {
     display: block;
     width: 100%;
-    height: 30px;
+    height: 30rem;
     background-size: auto 70%;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,18 +74,18 @@
 
 .main-menu .main-menu-btnbox .menu-box .icon .point-box {
     position: absolute;
-    top: -3px;
+    top: -3rem;
     right: 29%;
     z-index: 99;
     display: block;
-    min-width: 14px;
-    height: 14px;
+    min-width: 14rem;
+    height: 14rem;
     padding: 0;
     border-radius: 1.4rem;
-    font-size: 12px;
-    line-height: 13px;
+    font-size: 12rem;
+    line-height: 13rem;
     color: #fff;
-    padding: 0 3px;
+    padding: 0 3rem;
     background-color: #ff0000;
 }
 
@@ -108,29 +108,29 @@
 
 .qh-page-content {
     width: 100%;
-    height: calc(100vh - 62.01px);
+    height: calc(100vh - 62.01rem);
 }
 
 .qh-page-content .qh-page-bg {
     width: 100%;
-    height: calc(100vh - 62.01px);
+    height: calc(100vh - 62.01rem);
     overflow: auto;
 }
 
 .qh-page-content .qh-user-info-part {
     width: 100%;
     height: 21vh;
-    padding: 20px 30px 0;
+    padding: 20rem 30rem 0;
 }
 
 .qh-page-content .qh-user-info-part .user-photo {
     float: left;
-    width: 48px;
-    height: 48px;
-    margin: 0 15px 0 0;
+    width: 48rem;
+    height: 48rem;
+    margin: 0 15rem 0 0;
     border-style: solid;
-    border-width: 3px;
-    border-radius: 8px;
+    border-width: 3rem;
+    border-radius: 8rem;
     overflow: hidden;
 }
 
@@ -141,59 +141,59 @@
 .qh-page-content .qh-user-info-part .info-details-box {
     float: left;
     width: 100%;
-    padding: 3px 0 0;
+    padding: 3rem 0 0;
 }
 
 .qh-page-content .qh-user-info-part .info-details-box .info-details-item {
     float: left;
     width: 100%;
-    margin: 0 0 6px;
+    margin: 0 0 6rem;
 }
 
 .qh-page-content .qh-user-info-part .info-details-box .info-details-item .tit-box {
     float: left;
-    width: 105px;
+    width: 105rem;
     text-align: right;
-    margin: 0 5px 0 0;
+    margin: 0 5rem 0 0;
     font-size: 10pt;
     color: #fff;
-    line-height: 15px;
+    line-height: 15rem;
 }
 
 .qh-page-content .qh-user-info-part .info-details-box .info-details-item .line-box {
     float: left;
-    margin: 0 5px 0 0;
-    width: 2px;
-    height: 15px;
+    margin: 0 5rem 0 0;
+    width: 2rem;
+    height: 15rem;
     background-color: rgba(255, 255, 255, 0.4);
 }
 
 .qh-page-content .qh-user-info-part .info-details-box .info-details-item>font {
     font-size: 12pt;
     color: #fff;
-    line-height: 15px;
+    line-height: 15rem;
 }
 
 .qh-page-content .qh-qrcode-main-part {
     width: 100%;
-    padding: 25px 0 0;
+    padding: 25rem 0 0;
 }
 
 .qh-page-content .qh-qrcode-main-part.tem-updata-part {
-    padding: 13px 0 0;
+    padding: 13rem 0 0;
 }
 
 .qh-page-content .qh-qrcode-main-part .qr-code-box {
-    width: 182px;
-    height: 182px;
+    width: 182rem;
+    height: 182rem;
     margin: 0 auto;
-    padding: 5px;
+    padding: 5rem;
     background-color: #fff;
 }
 
 .qh-page-content .qh-qrcode-main-part .qr-code-box .no-data {
-    width: 172px;
-    height: 172px;
+    width: 172rem;
+    height: 172rem;
     display: table;
     margin: 0;
     color: #666;
@@ -206,9 +206,9 @@
 .qh-page-content .qh-qrcode-main-part .qr-code-box .no-data .inside-table-cell {
     display: table-cell;
     vertical-align: middle;
-    padding: 15px;
+    padding: 15rem;
     background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qrcode-bg.png);
-    background-size: 172px;
+    background-size: 172rem;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -230,7 +230,7 @@
     color: #353535;
     font-family: 'Arial';
     line-height: 1;
-    margin-top: 12px;
+    margin-top: 12rem;
 }
 
 .qh-page-content .qh-qrcode-main-part .qr-code-btn {
@@ -240,20 +240,20 @@
 
 .qh-page-content .qh-qrcode-main-part .qr-code-btn>a {
     display: block;
-    height: 35px;
-    width: 285px;
+    height: 35rem;
+    width: 285rem;
     margin: 0 auto;
-    line-height: 34px;
+    line-height: 34rem;
     font-size: 14pt;
     text-align: center;
     color: #fff;
-    border-radius: 18px;
+    border-radius: 18rem;
     font-weight: bold;
 }
 
 .qh-page-content .qh-qrcode-main-part .qr-code-btn>a.english {
-    margin: 10px auto 0;
-    letter-spacing: -1px;
+    margin: 10rem auto 0;
+    letter-spacing: -1rem;
 }
 
 .qh-page-content .qh-qrcode-main-part .qr-code-btn.green a {
@@ -294,14 +294,14 @@
 
 .qh-page-content .qh-qrcode-main-part .app-link-box {
     width: 100%;
-    padding: 10px 0 0;
+    padding: 10rem 0 0;
 }
 
 .qh-page-content .qh-qrcode-main-part .app-link-box .app-link-item {
     float: left;
     width: 25%;
-    height: 72px;
-    margin: 0 0 15px;
+    height: 72rem;
+    margin: 0 0 15rem;
 }
 
 .qh-page-content .qh-qrcode-main-part .app-link-box .app-link-item>a {
@@ -312,8 +312,8 @@
 
 .qh-page-content .qh-qrcode-main-part .app-link-box .app-link-item>a>img {
     display: block;
-    width: 50px;
-    margin: 0 auto 6px;
+    width: 50rem;
+    margin: 0 auto 6rem;
 }
 
 .qh-page-content .qh-qrcode-main-part .app-link-box .app-link-item>a .app-name {
@@ -332,12 +332,12 @@
     font-size: 7.5pt;
     color: #888;
     line-height: 1;
-    margin: 5px 0 0;
-    letter-spacing: -1px;
+    margin: 5rem 0 0;
+    letter-spacing: -1rem;
 }
 
 .qh-page-content .qh-qrcode-main-part .app-link-box.one-item {
-    padding: 0 20px;
+    padding: 0 20rem;
 }
 
 .qh-page-content .qh-qrcode-main-part .app-link-box.one-item .app-link-item {
@@ -345,7 +345,7 @@
 }
 
 .qh-page-content .qh-qrcode-main-part .app-link-box.two-item {
-    padding: 0 60px;
+    padding: 0 60rem;
 }
 
 .qh-page-content .qh-qrcode-main-part .app-link-box.two-item .app-link-item {
@@ -353,7 +353,7 @@
 }
 
 .qh-page-content .qh-qrcode-main-part .app-link-box.three-item {
-    padding: 0 30px;
+    padding: 0 30rem;
 }
 
 .qh-page-content .qh-qrcode-main-part .app-link-box.three-item .app-link-item {
@@ -361,39 +361,39 @@
 }
 
 .qh-page-content .qh-qrcode-main-part .in-out-btn-content {
-    width: 285px;
-    height: 34px;
+    width: 285rem;
+    height: 34rem;
     margin: 0 auto;
 }
 
 .qh-page-content .qh-qrcode-main-part .in-out-btn-content .out-btn {
     float: left;
-    width: calc(50% - 6px);
-    height: 34px;
-    line-height: 33px;
+    width: calc(50% - 6rem);
+    height: 34rem;
+    line-height: 33rem;
     text-align: left;
-    padding: 0 0 0 52px;
-    border-radius: 17px 0 0 17px;
-    background-position: 15px center;
+    padding: 0 0 0 52rem;
+    border-radius: 17rem 0 0 17rem;
+    background-position: 15rem center;
     background-repeat: no-repeat;
-    background-size: auto 12px;
+    background-size: auto 12rem;
     font-size: 11pt;
     font-weight: bold;
 }
 
 .qh-page-content .qh-qrcode-main-part .in-out-btn-content .in-btn {
     float: right;
-    width: calc(50% - 6px);
-    height: 34px;
-    line-height: 33px;
+    width: calc(50% - 6rem);
+    height: 34rem;
+    line-height: 33rem;
     text-align: right;
-    padding: 0 48px 0 0;
-    border-radius: 0 17px 17px 0;
+    padding: 0 48rem 0 0;
+    border-radius: 0 17rem 17rem 0;
     background-color: #d6ffe5;
     background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/icon/qh/arr-right-color-1.png);
-    background-position: calc(100% - 10px) center;
+    background-position: calc(100% - 10rem) center;
     background-repeat: no-repeat;
-    background-size: auto 12px;
+    background-size: auto 12rem;
     font-size: 11pt;
     color: #019944;
     font-weight: bold;
@@ -401,14 +401,14 @@
 
 .qh-page-content .qh-qrcode-main-part .in-out-btn-content font {
     font-size: 9pt;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.5rem;
 }
 
 .qh-page-content .qh-qrcode-main-part .qh-tem-updata-content {
-    width: calc(100% - 48px);
-    height: 300px;
-    margin: 0 24px;
-    padding: 40px 0 0;
+    width: calc(100% - 48rem);
+    height: 300rem;
+    margin: 0 24rem;
+    padding: 40rem 0 0;
     background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/updata-tem-bg.png);
     background-position: center top;
     background-repeat: no-repeat;
@@ -417,7 +417,7 @@
 
 .qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-title {
     width: 100%;
-    margin: 0 0 8px;
+    margin: 0 0 8rem;
     line-height: 1;
     text-align: center;
     font-size: 15pt;
@@ -427,7 +427,7 @@
 
 .qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-title-en {
     width: 100%;
-    margin: 0 0 28px;
+    margin: 0 0 28rem;
     line-height: 1;
     text-align: center;
     font-size: 9pt;
@@ -435,16 +435,16 @@
 }
 
 .qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form {
-    width: 170px;
+    width: 170rem;
     padding: 0 0;
-    margin: 0 auto 10px;
+    margin: 0 auto 10rem;
 }
 
 .qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form .title-box {
     float: left;
     width: 100%;
     font-size: 12pt;
-    line-height: 30px;
+    line-height: 30rem;
     color: #353535;
     font-weight: bold;
     text-align: center;
@@ -460,9 +460,9 @@
     float: left;
     width: 100%;
     font-size: 12pt;
-    line-height: 30px;
+    line-height: 30rem;
     color: #353535;
-    letter-spacing: 1px;
+    letter-spacing: 1rem;
     font-weight: bold;
     text-align: center;
 }
@@ -470,41 +470,41 @@
 .qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form .input-text-box {
     float: left;
     width: 100%;
-    height: 30px;
-    border-radius: 3px;
-    border: 1px solid #bebebe;
+    height: 30rem;
+    border-radius: 3rem;
+    border: 1rem solid #bebebe;
     background-color: #fff;
 }
 
 .qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form .input-text-box>input {
     float: left;
     width: 82%;
-    padding: 0 15px;
-    height: 28px;
+    padding: 0 15rem;
+    height: 28rem;
     font-size: 12pt;
     color: #353535;
-    line-height: 28px;
+    line-height: 28rem;
     border: none;
-    border-radius: 3px;
+    border-radius: 3rem;
 }
 
 .qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-form .input-text-box>font {
     float: left;
     font-size: 12pt;
-    line-height: 30px;
+    line-height: 30rem;
     color: #d2d2d2;
     font-weight: bold;
 }
 
 .qh-page-content .qh-qrcode-main-part .qh-tem-updata-content .qh-tem-updata-btn {
     display: block;
-    width: 254px;
-    height: 47px;
-    padding: 7px 0 0;
-    border-radius: 24px;
+    width: 254rem;
+    height: 47rem;
+    padding: 7rem 0 0;
+    border-radius: 24rem;
     margin: 0 auto;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 1rem;
     color: #fff;
     font-weight: bold;
     background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/tem-updata-btn.png);
@@ -525,14 +525,14 @@
     width: 100%;
     font-size: 8pt;
     line-height: 1;
-    margin: 5px 0 0;
+    margin: 5rem 0 0;
 }
 
 .color-1 .qh-page-content {
     background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qh-index-bg-2-2.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: 0 -52px;
+    background-position: 0 -52rem;
 }
 
 .color-1 .qh-page-content .user-photo {
@@ -549,15 +549,15 @@
     background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qh-index-bg-2.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: 0 -52px;
+    background-position: 0 -52rem;
 }
 
 .color-1 .main-menu {
-    height: 62px;
+    height: 62rem;
 }
 
 .color-1 .main-menu .main-menu-btnbox {
-    height: 62px;
+    height: 62rem;
     background-color: #eee;
 }
 
@@ -565,7 +565,7 @@
     display: block;
     float: left;
     width: 25%;
-    height: 62px;
+    height: 62rem;
     text-decoration: none;
 }
 
@@ -593,7 +593,7 @@
     background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qh-index-bg-1-2.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: 0 -52px;
+    background-position: 0 -52rem;
 }
 
 .color-2 .qh-page-content .user-photo {
@@ -614,15 +614,15 @@
     background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qh-index-bg-1.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: 0 -52px;
+    background-position: 0 -52rem;
 }
 
 .color-2 .main-menu {
-    height: 62px;
+    height: 62rem;
 }
 
 .color-2 .main-menu .main-menu-btnbox {
-    height: 62px;
+    height: 62rem;
     background-color: #eee;
 }
 
@@ -630,7 +630,7 @@
     display: block;
     float: left;
     width: 25%;
-    height: 62px;
+    height: 62rem;
     text-decoration: none;
 }
 
@@ -660,54 +660,54 @@
 
 .qh-record-page-outside .qh-record-page-content {
     width: 100%;
-    height: calc(100vh - 62.01px);
+    height: calc(100vh - 62.01rem);
     background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/bg/qh-record-bg.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: 0 -42px;
+    background-position: 0 -42rem;
 }
 
 .qh-record-page-outside .qh-record-page-content.place-page {
-    background-position: 0 -60px;
+    background-position: 0 -60rem;
 }
 
 .qh-record-page-outside .qh-record-page-content .qh-record-page-title {
-    padding: 15px 16px 0;
+    padding: 15rem 16rem 0;
 }
 
 .qh-record-page-outside .qh-record-page-content .qh-record-page-title>a {
     display: block;
     color: #fff;
-    padding: 13px 12px;
+    padding: 13rem 12rem;
     line-height: 1;
-    height: 40px;
+    height: 40rem;
     font-size: 10pt;
 }
 
 .qh-record-page-outside .qh-record-page-content .qh-record-main-part {
     width: 100%;
-    padding: 2px 16px 0;
-    height: calc(100vh - 117.01px);
+    padding: 2rem 16rem 0;
+    height: calc(100vh - 117.01rem);
     overflow: auto;
 }
 
 .qh-record-page-outside .qh-record-page-content .qh-record-main-part .qh-record-item {
     width: 100%;
-    height: 120px;
-    padding: 20px 34px 13px;
-    margin: 0 0 13px;
-    border-radius: 5px;
+    height: 120rem;
+    padding: 20rem 34rem 13rem;
+    margin: 0 0 13rem;
+    border-radius: 5rem;
     background-color: #fff;
 }
 
 .qh-record-page-outside .qh-record-page-content .qh-record-main-part .qh-record-item .tit-line {
     width: 100%;
-    margin: 0 0 7px;
+    margin: 0 0 7rem;
 }
 
 .qh-record-page-outside .qh-record-page-content .qh-record-main-part .qh-record-item .tit-line .name-box {
     float: left;
-    height: 16px;
+    height: 16rem;
     font-size: 12pt;
     color: #353535;
     line-height: 1;
@@ -716,15 +716,15 @@
 
 .qh-record-page-outside .qh-record-page-content .qh-record-main-part .qh-record-item .tit-line .tag-box {
     float: left;
-    height: 14px;
-    margin: 1px 0 0 10px;
-    padding: 0 5px;
-    line-height: 14px;
+    height: 14rem;
+    margin: 1rem 0 0 10rem;
+    padding: 0 5rem;
+    line-height: 14rem;
     font-size: 8pt;
     font-weight: bold;
     color: #fff;
     background-color: #e30052;
-    border-radius: 4px;
+    border-radius: 4rem;
 }
 
 .qh-record-page-outside .qh-record-page-content .qh-record-main-part .qh-record-item .info-line {
@@ -732,35 +732,35 @@
     font-size: 10pt;
     color: #888;
     line-height: 1;
-    margin: 0 0 9px;
+    margin: 0 0 9rem;
 }
 
 .qh-record-page-outside .qh-record-page-content .search-content-outside {
     width: 100%;
-    padding: 15px 45px 14px;
+    padding: 15rem 45rem 14rem;
 }
 
 .qh-record-page-outside .qh-record-page-content .search-content-outside .qh-search-content {
     float: left;
     width: 100%;
-    height: 30px;
-    padding: 0 10px;
+    height: 30rem;
+    padding: 0 10rem;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 15rem;
     overflow: hidden;
 }
 
 .qh-record-page-outside .qh-record-page-content .search-content-outside .qh-search-content .search-icon {
     float: left;
-    width: 19px;
-    margin: 7px 0 0;
+    width: 19rem;
+    margin: 7rem 0 0;
 }
 
 .qh-record-page-outside .qh-record-page-content .search-content-outside .qh-search-content .search-input {
     float: right;
-    width: calc(100% - 30px);
-    height: 30px;
-    line-height: 29px;
+    width: calc(100% - 30rem);
+    height: 30rem;
+    line-height: 29rem;
     border: none;
     background: #fff;
     color: #888;
@@ -768,46 +768,46 @@
 }
 
 .qh-record-page-outside .qh-record-page-content .note-block-content {
-    width: calc(100% - 32px);
-    height: calc(100vh - 140.01px);
-    margin: 0 16px;
-    padding: 15px 33px;
+    width: calc(100% - 32rem);
+    height: calc(100vh - 140.01rem);
+    margin: 0 16rem;
+    padding: 15rem 33rem;
     background-color: #fff;
-    border-radius: 6px;
+    border-radius: 6rem;
     overflow: auto;
 }
 
 .qh-record-page-outside .qh-record-page-content .note-block-content .note-block-item {
     width: 100%;
-    padding: 9px 0 13px;
-    border-bottom: 1px solid #e5e8f1;
+    padding: 9rem 0 13rem;
+    border-bottom: 1rem solid #e5e8f1;
 }
 
 .qh-record-page-outside .qh-record-page-content .note-block-content .note-block-item .title-line {
     width: 100%;
-    margin: 0 0 3px;
+    margin: 0 0 3rem;
 }
 
 .qh-record-page-outside .qh-record-page-content .note-block-content .note-block-item .title-line .title-box {
     float: left;
-    max-width: calc(100% - 30px);
+    max-width: calc(100% - 30rem);
     font-size: 10pt;
     color: #353535;
-    line-height: 22px;
+    line-height: 22rem;
     font-weight: bold;
 }
 
 .qh-record-page-outside .qh-record-page-content .note-block-content .note-block-item .title-line .tag-box {
     float: left;
     display: block;
-    height: 16px;
-    margin: 3px 0 0 5px;
-    padding: 0 3px;
+    height: 16rem;
+    margin: 3rem 0 0 5rem;
+    padding: 0 3rem;
     font-size: 9pt;
-    line-height: 15px;
+    line-height: 15rem;
     color: #fff;
     font-weight: bold;
-    border-radius: 4px;
+    border-radius: 4rem;
     background-color: #e9611d;
 }
 
@@ -829,14 +829,14 @@
 
 .qh-record-page-outside .qh-record-page-content .place-tab-outside {
     width: 100%;
-    padding: 13px 36px 3px;
+    padding: 13rem 36rem 3rem;
 }
 
 .qh-record-page-outside .qh-record-page-content .place-tab-content .swiper-slide {
     font-size: 10pt;
     color: #fff;
-    padding: 12px 0;
-    line-height: 16px;
+    padding: 12rem 0;
+    line-height: 16rem;
     text-align: center;
 }
 
@@ -847,38 +847,38 @@
 }
 
 .qh-record-page-outside .qh-record-page-content .place-block-content {
-    padding: 0 16px;
-    height: calc(100vh - 118.01px);
+    padding: 0 16rem;
+    height: calc(100vh - 118.01rem);
     overflow: auto;
 }
 
 .qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item {
     width: 100%;
-    height: 100px;
-    padding: 23px 20px 10px 34px;
-    margin: 0 0 13px;
-    border-radius: 5px;
+    height: 100rem;
+    padding: 23rem 20rem 10rem 34rem;
+    margin: 0 0 13rem;
+    border-radius: 5rem;
     background-color: #fff;
 }
 
 .qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .title-line {
     width: 100%;
-    margin: 0 0 3px;
+    margin: 0 0 3rem;
 }
 
 .qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .title-line .tit-box {
     float: left;
-    max-width: calc(100% - 150px);
+    max-width: calc(100% - 150rem);
     font-size: 10pt;
     color: #353535;
-    line-height: 22px;
+    line-height: 22rem;
 }
 
 .qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .title-line .star-box {
     float: left;
-    width: 15px;
-    height: 15px;
-    margin: 3px 0 0 10px;
+    width: 15rem;
+    height: 15rem;
+    margin: 3rem 0 0 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -887,29 +887,29 @@
 
 .qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .title-line .temperature-box {
     float: left;
-    padding: 0 0 0 20px;
-    margin: 0 0 0 10px;
+    padding: 0 0 0 20rem;
+    margin: 0 0 0 10rem;
     font-size: 8pt;
     color: #34c5ce;
-    height: 22px;
-    line-height: 22px;
+    height: 22rem;
+    line-height: 22rem;
     background-position: left center;
     background-repeat: no-repeat;
-    background-size: auto 19px;
+    background-size: auto 19rem;
     background-image: url(https://health.hust.edu.cn/new_jp/resource/image/hs/icon/qh/temperature-icon.png);
 }
 
 .qh-record-page-outside .qh-record-page-content .place-block-content .place-block-item .title-line .tag-box {
     float: right;
     display: block;
-    height: 16px;
-    margin: 3px 0 0;
-    padding: 0 3px;
+    height: 16rem;
+    margin: 3rem 0 0;
+    padding: 0 3rem;
     font-size: 9pt;
-    line-height: 15px;
+    line-height: 15rem;
     color: #fff;
     font-weight: bold;
-    border-radius: 4px;
+    border-radius: 4rem;
     background-color: #e30052;
 }
 

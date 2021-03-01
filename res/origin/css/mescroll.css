@@ -44,13 +44,13 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    min-height: 30px;
-    padding: 10px 0
+    min-height: 30rem;
+    padding: 10rem 0
 }
 
 .mescroll-upwarp {
-    min-height: 30px;
-    padding: 15px 0;
+    min-height: 30rem;
+    padding: 15rem 0;
     text-align: center;
     visibility: hidden
 }
@@ -59,23 +59,23 @@ body {
 .mescroll-upwarp .upwarp-tip,
 .mescroll-upwarp .upwarp-nodata {
     display: inline-block;
-    font-size: 12px;
+    font-size: 12rem;
     color: gray;
     vertical-align: middle
 }
 
 .mescroll-downwarp .downwarp-tip,
 .mescroll-upwarp .upwarp-tip {
-    margin-left: 8px
+    margin-left: 8rem
 }
 
 .mescroll-downwarp .downwarp-progress,
 .mescroll-upwarp .upwarp-progress {
     display: inline-block;
-    width: 16px;
-    height: 16px;
+    width: 16rem;
+    height: 16rem;
     border-radius: 50%;
-    border: 1px solid gray;
+    border: 1rem solid gray;
     border-bottom-color: transparent;
     vertical-align: middle
 }
@@ -105,7 +105,7 @@ body {
 
 .mescroll-empty {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 20rem;
     text-align: center
 }
 
@@ -114,17 +114,17 @@ body {
 }
 
 .mescroll-empty .empty-tip {
-    margin-top: 6px;
-    font-size: 14px;
+    margin-top: 6rem;
+    font-size: 14rem;
     color: gray
 }
 
 .mescroll-empty .empty-btn {
     max-width: 50%;
-    margin: 20px auto;
-    padding: 10px;
-    border: 1px solid #65aadd;
-    border-radius: 6px;
+    margin: 20rem auto;
+    padding: 10rem;
+    border: 1rem solid #65aadd;
+    border-radius: 6rem;
     background-color: white;
     color: #65aadd
 }
@@ -136,10 +136,10 @@ body {
 .mescroll-totop {
     z-index: 9990;
     position: fixed;
-    right: 10px;
-    bottom: 30px;
-    width: 36px;
-    height: 36px;
+    right: 10rem;
+    bottom: 30rem;
+    width: 36rem;
+    height: 36rem;
     border-radius: 50%;
     opacity: 0
 }
@@ -197,11 +197,11 @@ body {
 }
 
 .mescroll-bar::-webkit-scrollbar {
-    width: 6px
+    width: 6rem
 }
 
 .mescroll-bar::-webkit-scrollbar-thumb {
-    border-radius: 6px;
+    border-radius: 6rem;
     background-color: #ccc
 }
 
